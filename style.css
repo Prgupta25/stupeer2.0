@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.drop {
+    position: relative;
+}
+
+.nav {
+    padding: 40px 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle > .ok1 {
+    text-decoration: underline;
+}
+
+.circle {
+    position: relative;
+}
+
+.ok2 {
+    position: absolute;
+    top: -40px;
+    right:-33px;
+    z-index: -1;
+}
+.yft{
+    height: 60px;
+    width: 170px;
+    font-size: 100px;
+}
+
+
+.tags {
+    /* font-size: 9px; */
+    padding: 40px 80px 0px 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 77px;
+    font-family: 'Inter', sans-serif;
+}
+
+.tags a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+
+}
+
+.nav,.stripes,.rec {
+    position: absolute;
+}
+.rec{
+    left: 115px;
+}
+
+.wrapper {
+    position: relative;
+    transform: translateZ(-30px);
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 222px;
+    text-align: center;
+    gap: 20px;
+}
+
+h5 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+p {
+    height: 87px;
+    width: 790px;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.ok {
+    margin-top: 51px;
+}
+
+.heading {
+    width: 783px;
+    height: 169px;
+}
+
+.ud1 {
+    color: #6200EE;
+    font-size: 80px;
+}
+.image{
+    position: absolute;
+    top: 44%;
+    left: 75%;
+}
+.image1{
+    position: absolute;
+    top: 44%;
+    left: 22%;
+}
+.image2{
+    position: absolute;
+    top: 14%;
+    left: 94.8%;
+}
+.para{
+    position: absolute;
+    left: 40%;
+    top: 105%;
+}
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+
+
+
+.wrapper1 {
+    margin-top: 20rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.pio{
+    margin-top: -800px;
+}
+
+
+.union {
+    margin-top: -48rem;
+}
+
+
+.hd1 {
+    font-size: 42px;
+    margin-bottom: 10rem;
+}
+
+.box {
+    top: 50px;
+    right: 30px;
+    left: 30px;
+    /* margin-right: 10rem; */
+    background: rgba(98, 0, 238, 0.05);
+    box-shadow: 4px 4px 10px rgba(98, 0, 238, 0.1);
+    backdrop-filter: blur(39px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 16px;
+    width: (2400-40)px;
+    position: absolute  ;
+    height: 900px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hd2 {
+    /* text-align: center; */
+    font-size: 28px;
+    height: 200px;
+    width: 1200px;
+    margin-top: 10rem;
+}
+.pqr{
+    margin-top: 6rem;
+}
+
+
+.design2 {
+    font-size: 100px;
+    color: #6200ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -11rem;
+}
+.circle2{
+    position: relative;
+    margin-top: -1rem;
+    margin-right: -7rem;
+}
+.hole{
+    position: relative;
+    margin-top: -1rem;
+    margin-left: -7rem;
+}
+.stripes2{
+    margin-top: -1rem;
+}
+.hfd{
+    font-size: 100px;
+    color: #6200ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+.sdg{
+    font-size: 38px;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 500px;
+}
+
+
+.lg{
+    height: 100%;
+    width: 100%;
+    /* margin-top: 2px; */
+    margin-bottom: -100px;
+    margin-top: -80px;
+}
+.drop{
+    margin-top: 1.5rem;
+}
+.line{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-bottom: auto;
+}
+.design {
+    margin-top: 5em;
+    width: 783px;
+    height: 169px;
+}
+
+.pu {
+    position: absolute;
+    color: #6200EE;
+    font-size: 80px;
+    margin-top: -140px;
+    left: 42.4%;
+}
+h6 {
+    color: black;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: -10px;
+   
+}
+.main2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    text-align: center;
+    gap: 1px;
+}
+.round{
+    position: relative;
+    left: 160px;
+    top: 170px;
+}
+.square{
+    position: relative;
+    left: 970px;
+    top: -200px;
+}
+.gl{
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 190px;
+}
+.iy{
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 1000px;
+}
+.ex{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 340px;
+    font-size: 30px;
+}
+.hd{
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 340px;
+    font-size: 25px;
+}
+.pa{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 209px;
+    font-size: 28px;
+}
+.ex1{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 1150px;
+    font-size: 30px;
+}
+.hd1{
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 1150px;
+    font-size: 25px;
+}
+.pa1{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 1020px;
+    font-size: 28px;
+}
+.ar{
+    position: relative;
+    left: 790px;
+    top: -20px;
+}
+.oe{
+    position: relative;
+    left: 870px;
+    top: -70px;
+
+}
+.ow{
+    position: relative;
+    left: 1075px;
+    top: -120px;
+
+}
+/* hd2----nyf */
+.olk{
+    font-size: 58px;
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 500px;
+}
+.nbg{
+    font-size: 80px;
+    color: #6200ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+.hjk{
+    width: 2000px;
+    height: 1010px;
+}
